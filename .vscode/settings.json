@@ -1,13 +1,15 @@
 {
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "python.formatting.provider": "none",
-  "cSpell.words": [
-    "chicho",
-    "dinamicamente",
-    "tabulación",
-    "Tupla",
-    "Villalobos"
-  ]
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "cSpell.words": [
+        "chicho",
+        "dinamicamente",
+        "fibonnacci",
+        "fizzbuzz",
+        "tabulación",
+        "Tupla",
+        "Villalobos"
+    ],
+    "python.formatting.provider": "none"
 }

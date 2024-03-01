@@ -1,0 +1,6 @@
+Mi nombre es Cesar
+Mi apellido es Villalobos Olmos
+22 años
+Y mi lenguaje preferido es Python
+Aunque también me gusta JavaScript
+Y TypeScript

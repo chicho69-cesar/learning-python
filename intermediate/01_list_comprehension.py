@@ -20,3 +20,7 @@ def sum_five(number):
 
 my_list = [sum_five(i) for i in range(8)]
 print(my_list)
+
+# With conditions
+my_list = [i for i in range(8) if i % 2 == 0]
+print(my_list)

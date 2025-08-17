@@ -30,6 +30,7 @@ print(my_list.count(30))
 
 print(my_other_list.index("Cesar"))
 
+# Aquí estamos desempaquetando la lista
 age, height, name, is_married, languages = my_other_list
 print(name)
 
@@ -43,29 +44,29 @@ print(my_list + my_other_list)
 print('\n')
 
 # Creación, inserción, actualización y eliminación
-my_other_list.append("Chicho")
+my_other_list.append("Chicho") # Añade al final de la lista
 print(my_other_list)
 
-my_other_list.insert(1, "Negro")
+my_other_list.insert(1, "Negro") # Inserta en la posición 1
 print(my_other_list)
 
 my_other_list[1] = "Gris"
 print(my_other_list)
 
-my_other_list.remove("Gris")
+my_other_list.remove("Gris") # Elimina el primer elemento que coincida
 print(my_other_list)
 
-my_list.remove(30)
+my_list.remove(30) # Elimina el primer elemento que coincida
 print(my_list)
 
-my_list.pop()
+my_list.pop() # Elimina el último elemento
 print(my_list)
 
-my_popped_element = my_list.pop(2)
+my_popped_element = my_list.pop(2) # Elimina el elemento en la posición 2
 print(my_popped_element)
 print(my_list)
 
-del my_list[2]
+del my_list[2] # Elimina el elemento en la posición 2
 print(my_list)
 
 print('\n')
@@ -86,7 +87,10 @@ print(my_new_list)
 print('\n')
 
 # Sub listas
-print(my_new_list[1:3])
+print(my_new_list[1:3]) # Result: [24, 30]
+print('\n')
+
+print(my_new_list[::-1]) # Result: [62, 52, 30, 24, 17, 35]
 print('\n')
 
 # Cambio de tipo

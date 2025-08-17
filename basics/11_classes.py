@@ -19,7 +19,7 @@ class Person:
 
     def get_name(self):
         return self.name
-    
+
     def walk(self):
         print(f"{self.full_name} está caminando")
 

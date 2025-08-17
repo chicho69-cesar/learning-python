@@ -11,13 +11,13 @@ my_function()
 print("\n")
 
 # Función con parámetros de entrada/argumentos
-def sum(first: int, second):
+def sum_func(first: int, second):
     print(first + second)
 
-sum(5, 7)
-sum(54754, 71231)
-sum("5", "7")
-sum(1.4, 5.2)
+sum_func(5, 7)
+sum_func(54754, 71231)
+sum_func("5", "7")
+sum_func(1.4, 5.2)
 
 print("\n")
 

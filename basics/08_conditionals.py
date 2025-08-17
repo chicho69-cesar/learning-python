@@ -29,3 +29,7 @@ if not my_string:
 
 if my_string == "Mi cadena de texto":
     print("Estas cadenas de texto coinciden")
+
+# Condicional con operadores lógicos
+my_number = 10
+what_is_my_number = "Es par" if my_number % 2 == 0 else "Es impar"

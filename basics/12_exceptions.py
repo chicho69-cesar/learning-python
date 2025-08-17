@@ -8,7 +8,7 @@ numberTwo = "2"
 try:
     print(numberOne + numberTwo)
     print("No se ha producido ninguna excepción")
-except:
+except TypeError:
     # Se ejecuta si se produce una excepción
     print("Se ha producido una excepción")
 
@@ -18,7 +18,7 @@ print("\n")
 try:
     print(numberOne + numberTwo)
     print("No se ha producido ninguna excepción")
-except:
+except TypeError:
     print("Se ha producido una excepción")
 else: # Opcional
     # Se ejecuta si no se produce una excepción

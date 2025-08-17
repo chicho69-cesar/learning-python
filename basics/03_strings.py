@@ -31,23 +31,23 @@ print(b, "\n")
 
 # División
 language_slice = language[1:3]
-print(language_slice)
+print(language_slice) # Result: 'yt'
 
 language_slice = language[1:]
-print(language_slice)
+print(language_slice) # Result: 'ython'
 
 language_slice = language[-2]
-print(language_slice)
+print(language_slice) # Result: 'o'
 
 language_slice = language[-2:]
-print(language_slice)
+print(language_slice) # Result: 'on'
 
 language_slice = language[0:6:2]
-print(language_slice)
+print(language_slice) # Result: 'pto'
 
 # Reverse
 language_reverse = language[::-1]
-print(language_reverse, "\n")
+print(language_reverse, "\n") # Result: 'nohtyp'
 
 # Funciones del lenguaje
 print(language.capitalize())
@@ -57,5 +57,6 @@ print(language.count("t"))
 print(language.isnumeric())
 print(language.lower().isupper())
 print(language.startswith("py"))
+print(language.endswith("on"))
 print("1".isnumeric())
 print("Py" == "py") # Es case sensitive

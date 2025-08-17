@@ -17,7 +17,7 @@ while my_counter <= 20:
     if my_counter == 15:
         print("Se detiene la ejecución")
         break
-    
+
     print(my_counter)
 
 print("La ejecución continua\n")
@@ -50,9 +50,9 @@ my_dict = {
     1: "Python"
 }
 
-for element in my_dict:
-    print(element)
-    print(my_dict[element])
+for key, value in my_dict.items():
+    print(key) # Result: 'Name', 'Lastname', 'Age', 1
+    print(value) # Result: 'Cesar', 'Villalobos Olmos', 21, 'Python'
 else:
     print("El bucle for ha finalizado")
 
@@ -91,4 +91,7 @@ for i in range(1, 11):
 print("\n")
 
 for i in range(1, 11, 2):
+    print(i)
+
+for i in range(10, 0, -1):
     print(i)

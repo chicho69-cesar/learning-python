@@ -55,9 +55,9 @@ print(my_dict)
 print("\n")
 
 # Otras operaciones
-print(my_dict.items())
-print(my_dict.keys())
-print(my_dict.values())
+print(my_dict.items()) # Result: dict_items([('Name', 'Cesar'), ('Lastname', 'Villalobos Olmos'), ('Age', 21), ('Languages', ['Python', 'C#', 'JavaScript', 'TypeScript']), (1, 1.79)])
+print(my_dict.keys()) # Result: dict_keys(['Name', 'Lastname', 'Age', 'Languages', 1])
+print(my_dict.values()) # Result: dict_values(['Cesar', 'Villalobos Olmos', 21, ['Python', 'C#', 'JavaScript', 'TypeScript'], 1.79])
 
 print(type(my_dict.items()))
 print(type(my_dict.keys()))
@@ -68,15 +68,15 @@ print("\n")
 my_list = ["Name", 1, "Lang"]
 
 my_new_dict = dict.fromkeys((my_list))
-print(my_new_dict)
+print(my_new_dict) # Result: {'Name': None, 1: None, 'Lang': None}
 my_new_dict = dict.fromkeys(my_list)
-print(my_new_dict)
+print(my_new_dict) # Result: {'Name': None, 1: None, 'Lang': None}
 my_new_dict = dict.fromkeys(("Name", 1, "Lang"))
-print(my_new_dict)
+print(my_new_dict) # Result: {'Name': None, 1: None, 'Lang': None}
 my_new_dict = dict.fromkeys(my_dict)
-print(my_new_dict)
+print(my_new_dict) # Result: {'Name': None, 'Lastname': None, 'Age': None, 'Languages': None, 1: None}
 my_new_dict = dict.fromkeys(my_dict, "Chicho") # Valor por defecto para cada key
-print(my_new_dict)
+print(my_new_dict) # Result: {'Name': 'Chicho', 'Lastname': 'Chicho', 'Age': 'Chicho', 'Languages': 'Chicho', 1: 'Chicho'}
 
 print("\n")
 
